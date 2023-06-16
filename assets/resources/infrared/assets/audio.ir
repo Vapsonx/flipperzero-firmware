@@ -328,3 +328,46 @@ type: parsed
 protocol: NECext
 address: 30 FC 00 00
 command: 0C F3 00 00
+#
+# Model: LG OK75
+name: Power
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x1E
+#
+name: Mute
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x1F
+#
+name: Playback/Stopping
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x04
+#
+name: Vol_up
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x17
+#
+name: Vol_dn
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x16
+#
+name: Previous
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x06
+#
+name: Next
+type: parsed
+protocol: NEC
+address: 0x10
+command: 0x07
